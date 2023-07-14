@@ -556,6 +556,17 @@ aside .rules-div button {
   .result-div .rockc {
     border: 12px solid rgb(220, 46, 78);
   }
+  .rules {
+    padding: 0rem 1rem 1rem 1rem;
+    box-shadow: 1px 1px 10px 1px black;
+    top: 7rem;
+    z-index: 1;
+    left: 1.5rem;
+  }
+  .rules h3 {
+    font-size: 1.4rem;
+    color: hsl(229, 25%, 31%);
+  }
 }
 @media (max-width: 375px) {
   .result-div {

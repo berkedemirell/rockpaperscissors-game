@@ -555,7 +555,6 @@ aside {
         transform: translate(-15rem, -7rem);
       }
     }
-    
   }
   .result-div {
     transform: translateX(10rem);
@@ -568,7 +567,6 @@ aside {
     left: 4rem;
 
     .rules-header {
-
       h3 {
         font-size: 1.4rem;
         color: hsl(229, 25%, 31%);
@@ -609,6 +607,18 @@ aside {
     }
     .rockc {
       border: 12px solid rgb(220, 46, 78);
+    }
+  }
+  .rules {
+    padding: 0rem 1rem 1rem 1rem;
+    box-shadow: 1px 1px 10px 1px black;
+    top: 7rem;
+    z-index: 1;
+    left: 1.5rem;
+
+    h3 {
+      font-size: 1.4rem;
+      color: hsl(229, 25%, 31%);
     }
   }
 }
