@@ -530,7 +530,7 @@ aside .rules-div button {
 }
 @media (max-width: 450px) {
   main {
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
   }
   main .image-container {
     transform: translateX(9rem);
@@ -542,7 +542,7 @@ aside .rules-div button {
     transform: translate(-12rem, -7rem);
   }
   main .image-container .scissors {
-    transform: translate(-15rem, -7rem);
+    transform: translate(7rem, -13rem);
   }
 }
 @media (max-width: 375px) {

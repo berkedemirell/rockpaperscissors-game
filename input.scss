@@ -584,7 +584,7 @@ aside {
 
 @media (max-width: 450px) {
   main {
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
     .image-container {
       transform: translateX(9rem);
       .rock {
@@ -594,7 +594,7 @@ aside {
         transform: translate(-12rem, -7rem);
       }
       .scissors {
-        transform: translate(-15rem, -7rem);
+        transform: translate(7rem, -13rem);
       }
     }
   }
