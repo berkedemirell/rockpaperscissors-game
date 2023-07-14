@@ -584,11 +584,11 @@ aside {
 
 @media (max-width: 450px) {
   main {
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
     .image-container {
-      transform: translateX(9rem);
+      transform: translateX(6rem);
       .rock {
-        transform: translate(-13rem, -1rem);
+        transform: translate(-13.5rem, -1rem);
       }
       .paper {
         transform: translate(-12rem, -7rem);

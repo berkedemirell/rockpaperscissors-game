@@ -530,13 +530,13 @@ aside .rules-div button {
 }
 @media (max-width: 450px) {
   main {
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
   }
   main .image-container {
-    transform: translateX(9rem);
+    transform: translateX(6rem);
   }
   main .image-container .rock {
-    transform: translate(-13rem, -1rem);
+    transform: translate(-13.5rem, -1rem);
   }
   main .image-container .paper {
     transform: translate(-12rem, -7rem);
