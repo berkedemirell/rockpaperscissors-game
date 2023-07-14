@@ -544,6 +544,18 @@ aside .rules-div button {
   main .image-container .scissors {
     transform: translate(7rem, -13rem);
   }
+  .result-div {
+    transform: translateX(7rem);
+  }
+  .result-div .scissorsc {
+    border: 12px solid rgb(236, 158, 14);
+  }
+  .result-div .paperc {
+    border: 12px solid rgb(72, 101, 244);
+  }
+  .result-div .rockc {
+    border: 12px solid rgb(220, 46, 78);
+  }
 }
 @media (max-width: 375px) {
   .result-div {

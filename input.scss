@@ -598,6 +598,19 @@ aside {
       }
     }
   }
+  .result-div {
+    transform: translateX(7rem);
+
+    .scissorsc {
+      border: 12px solid rgb(236, 158, 14);
+    }
+    .paperc {
+      border: 12px solid rgb(72, 101, 244);
+    }
+    .rockc {
+      border: 12px solid rgb(220, 46, 78);
+    }
+  }
 }
 
 @media (max-width: 375px) {
