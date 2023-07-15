@@ -573,6 +573,9 @@ aside .rules-div button {
     height: 150vh;
     width: fit-content;
   }
+  main {
+    padding-bottom: 0;
+  }
 }
 @media (max-width: 375px) {
   .result-div {
