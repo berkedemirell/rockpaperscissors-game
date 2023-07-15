@@ -571,6 +571,7 @@ aside .rules-div button {
 @media (max-width: 400px) {
   body {
     height: 150vh;
+    width: fit-content;
   }
 }
 @media (max-width: 375px) {
