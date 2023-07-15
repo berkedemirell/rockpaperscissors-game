@@ -568,6 +568,11 @@ aside .rules-div button {
     color: hsl(229, 25%, 31%);
   }
 }
+@media (max-width: 400px) {
+  body {
+    height: 150vh;
+  }
+}
 @media (max-width: 375px) {
   .result-div {
     transform: translateX(7rem);
