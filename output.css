@@ -230,7 +230,7 @@ aside .rules-div button {
   padding: 1rem;
   padding-bottom: 7rem;
   width: fit-content;
-  transform: translate(17rem);
+  transform: translate(8rem);
   gap: 6rem;
   flex-wrap: wrap;
   overflow: hidden;
@@ -311,31 +311,19 @@ aside .rules-div button {
 }
 
 @media (max-width: 1150px) {
-  main .image-container {
-    transform: translate(25rem);
-  }
   .result-div {
-    transform: translateX(11rem);
+    transform: translateX(0);
   }
   .result-div .circle {
     display: none;
   }
 }
 @media (max-width: 1050px) {
-  main .image-container {
-    transform: translate(22rem);
-  }
   .rules {
     left: 20rem;
   }
-  .result-div {
-    transform: translateX(6rem);
-  }
 }
 @media (max-width: 950px) {
-  main .image-container {
-    transform: translate(19rem);
-  }
   .result-div .rockc {
     padding: 2rem;
     width: 3rem;
@@ -447,6 +435,9 @@ aside .rules-div button {
   }
 }
 @media (max-width: 570px) {
+  main .image-container {
+    transform: translateX(9rem);
+  }
   main .header-container {
     gap: 1rem;
   }
@@ -501,7 +492,6 @@ aside .rules-div button {
   .result-div {
     flex-direction: column;
     gap: 1rem;
-    transform: translateX(13rem);
   }
 }
 @media (max-width: 500px) {
@@ -521,7 +511,7 @@ aside .rules-div button {
     transform: translate(-15rem, -7rem);
   }
   .result-div {
-    transform: translateX(10rem);
+    transform: translateX(0rem);
   }
   .rules {
     padding: 0rem 1rem 1rem 1rem;
@@ -545,7 +535,7 @@ aside .rules-div button {
     padding-bottom: 15rem;
   }
   main .image-container {
-    transform: translateX(6rem);
+    transform: translateX(7rem);
   }
   main .image-container .rock {
     transform: translate(-13.5rem, -1rem);
@@ -555,9 +545,6 @@ aside .rules-div button {
   }
   main .image-container .scissors {
     transform: translate(7rem, -13rem);
-  }
-  .result-div {
-    transform: translateX(7rem);
   }
   .result-div .scissorsc {
     border: 12px solid rgb(236, 158, 14);
@@ -590,9 +577,6 @@ aside .rules-div button {
   }
 }
 @media (max-width: 375px) {
-  .result-div {
-    transform: translateX(7rem);
-  }
   .result-div .scissorsc {
     border: 12px solid rgb(236, 158, 14);
   }
