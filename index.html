@@ -23,28 +23,41 @@
 
     <title>Frontend Mentor | Rock, Paper, Scissors</title>
   </head>
-  <body>
-    <header>
-      <div class="header-container">
-        <div class="title-header">
-          <span>ROCK</span>
-          <span>PAPER</span>
-          <span>SCISSORS</span>
+  <body class="boddy">
+    <div class="divv">
+      <header>
+        <div class="header-container">
+          <div class="title-header">
+            <span>ROCK</span>
+            <span>PAPER</span>
+            <span>SCISSORS</span>
+          </div>
+          <div class="score">
+            <span class="">score</span>
+            <h1 class="scoreboard">0</h1>
+          </div>
         </div>
-        <div class="score">
-          <span class="">score</span>
-          <h1 class="scoreboard">0</h1>
+      </header>
+      <main>
+        <div class="image-container">
+          <img class="triangle" src="/images/bg-triangle.svg" alt="" />
+          <button class="paper pick-btn" id="paper">
+            <img id="paper" class="" src="/images/icon-paper.svg" alt="" />
+          </button>
+          <button class="rock pick-btn" id="rock">
+            <img id="rock" src="/images/icon-rock.svg" alt="" />
+          </button>
+          <button class="scissors pick-btn" id="scissors">
+            <img
+              id="scissors"
+              class=""
+              src="/images/icon-scissors.svg"
+              alt=""
+            />
+          </button>
         </div>
-      </div>
-    </header>
-    <main>
-      <div class="image-container">
-        <img class="triangle" src="/images/bg-triangle.svg" alt="" />
-        <button class="paper pick-btn" id="paper"><img id="paper" class="" src="/images/icon-paper.svg" alt="" /></button>
-        <button class="rock pick-btn" id="rock"><img id="rock" src="/images/icon-rock.svg" alt="" /></button>
-        <button class="scissors pick-btn" id="scissors"><img id="scissors" class="" src="/images/icon-scissors.svg" alt="" /></button>
-      </div>
-    </main>
+      </main>
+    </div>
     <aside>
       <div class="rules-div">
         <button class="rules-button">RULES</button>
@@ -53,9 +66,11 @@
     <div class="rules invisible">
       <div class="rules-header">
         <h3>RULES</h3>
-        <button class="close-btn"><img src="/images/icon-close.svg" alt=""></button>
+        <button class="close-btn">
+          <img src="/images/icon-close.svg" alt="" />
+        </button>
       </div>
-      <img src="/images/image-rules.svg" alt="">
+      <img src="/images/image-rules.svg" alt="" />
     </div>
   </body>
 </html>
