@@ -70,10 +70,6 @@ html {
   justify-content: center;
 }
 
-.boddy {
-  overflow-y: hidden;
-}
-
 .divv {
   display: flex;
   flex-direction: column;
@@ -332,25 +328,15 @@ aside {
   }
 }
 @media (max-width: 1050px) {
-  main {
-    .image-container {
-      // transform: translate(22rem);
-    }
-  }
+
 
   .rules {
     left: 20rem;
   }
-  .result-div {
-    // transform: translateX(6rem);
-  }
+
 }
 @media (max-width: 950px) {
-  main {
-    .image-container {
-      // transform: translate(19rem);
-    }
-  }
+
   .result-div {
     .rockc {
       padding: 2rem;

@@ -70,10 +70,6 @@ html {
   justify-content: center;
 }
 
-.boddy {
-  overflow-y: hidden;
-}
-
 .divv {
   display: flex;
   flex-direction: column;
